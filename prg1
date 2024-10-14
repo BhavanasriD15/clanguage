@@ -14,7 +14,7 @@ void main()
     }
     if(count==0)
     {
-    print("prime number"\n );
+    printf("prime number"\n );
     }
     else
     {
