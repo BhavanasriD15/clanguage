@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    printf("enter num1:");
+    scanf("%d",&a);
+    printf("enter num2 :");
+    scanf("%d",&b);
+    int  big=a>b?a:b;
+    int step=big;
+    while(1)
+    {
+        if(big%a==0 && big%b==0)
+        {
+            printf("the LCM is %d",big);
+            break;
+        }
+        else
+        big=big+step;
+    }
+}
