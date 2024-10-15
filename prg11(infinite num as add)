@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int count=0,a;
+  while(1)
+  {
+      printf("enter num:");
+      scanf("%d",&a);
+      count=count+a;
+      if(a==0)
+         break;
+  }
+  printf("%d",count);
+}
